@@ -1,0 +1,32 @@
+{
+  "name": "hello-koa",
+  "version": "1.0.0",
+  "description": "hello koa 2 example with async",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renxj/hello-koa.git"
+  },
+  "keywords": [
+    "koa",
+    "async"
+  ],
+  "author": "renxj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renxj/hello-koa/issues"
+  },
+  "homepage": "https://github.com/renxj/hello-koa#readme",
+  "dependencies": {
+    "koa": "2.0.0",
+    "koa-router": "7.0.0",
+    "koa-bodyparser": "3.2.0",
+    "nunjucks": "2.4.2",
+    "mime": "1.3.4",
+    "mz": "2.4.0"
+  }
+}
